@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/ViewName"
+        android:text="Nurpul"
+        android:layout_marginTop="56dp"
+        android:layout_marginStart="23dp"
+        android:gravity="center"
+        android:background="#C4C4C4"/>
+    <TextView
+        style="@style/ViewName"
+        android:text="Prateek"
+        android:layout_marginTop="56dp"
+        android:layout_marginStart="207dp"
+        android:gravity="center"
+        android:background="#C4C4C4"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="212dp"
+        android:background="@color/black"/>
+    <TextView
+        style="@style/ViewName1"
+        android:text="Albert"
+        android:layout_marginTop="262dp"
+        android:layout_marginStart="45dp"
+        android:gravity="center"
+        android:background="#C4C4C4"/>
+    <TextView
+        style="@style/ViewName1"
+        android:text="Aman"
+        android:layout_marginTop="475dp"
+        android:layout_marginStart="45dp"
+        android:gravity="center"
+        android:background="#C4C4C4"/>
+
+
+</RelativeLayout>
